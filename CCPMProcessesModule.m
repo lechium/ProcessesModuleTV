@@ -24,6 +24,37 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"nitotv://view/settings.processes"] options:@{} completionHandler:nil];
 }
 
+/*
+
+ URLSchemes for nitoTV are broken down thusly
+ 
+ nitotv://package/[packageid]
+ nitotv://view/[theview]
+ 
+ ie
+ 
+ go to 'Breezy' package
+ 
+ nitotv://package/com.nito.breezy
+ 
+ go to 'installed' section
+ 
+ nitotv://view/installed
+ 
+ following 'views' are available
+ 
+ featured
+ installed
+ search
+ sources
+ settings
+ settings.processes
+ settings.applications
+ updates
+ issues
+ 
+ */
+
 -(BOOL)dismissAfterAction {
     return TRUE;
 }
