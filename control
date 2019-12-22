@@ -1,0 +1,11 @@
+Package: com.nito.processes-module
+Name: ProcessesModule
+Depends: mobilesubstrate, com.nito.tvcontrolcenter (>=1.1), firmware (>= 13.0)
+Version: 1.0
+Architecture: appletvos-arm64
+Description: Control center module that is a shortcut to the Running Processing section in nitoTV, inspect, inject and quit any running process
+Maintainer: Kevin Bradley
+Author: Kevin Bradley
+Section: Tweaks
+Depiction: https://nitosoft.com/ATV4/proc/proc.json
+Icon: https://nitosoft.com/ATV4/proc/proc_icon.png
